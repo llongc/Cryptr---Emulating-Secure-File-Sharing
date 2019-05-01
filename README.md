@@ -1,4 +1,4 @@
-# Cryptr---Emulating-Secure-File-Sharing
+# Cryptr-Emulating-Secure-File-Sharing
 ## This is the project from 419 Computer Security class
 
 ### Compile
@@ -6,7 +6,7 @@
 
 ### You need to generate a file to compile
 ##### echo "This is a test file" > foo.txt
-
+#
 ##### java Cryptr generatekey secret.key
 ##### java Cryptr encryptfile foo.txt secret.key foo.enc
 ##### openssl genrsa -out private_key.pem 2048
